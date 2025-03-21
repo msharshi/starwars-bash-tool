@@ -1,0 +1,6 @@
+apiVersion: v2
+name: starwars-bash-tool
+description: Helm chart to deploy Star Wars Bash Tool
+version: 0.1.0
+appVersion: "1.0"
+
