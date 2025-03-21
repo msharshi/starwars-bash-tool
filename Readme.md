@@ -2,7 +2,7 @@
 
 This Bash CLI tool fetches **all starships and their pilots** from a given **Star Wars film title**, using the [SWAPI](https://swapi.dev) (Star Wars API).
 
-# Fim Names
+# Film Names
 
 A New Hope;
 The Empire Strikes Back;
