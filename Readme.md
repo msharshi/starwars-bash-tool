@@ -2,14 +2,12 @@
 
 This Bash CLI tool fetches **all starships and their pilots** from a given **Star Wars film title**, using the [SWAPI](https://swapi.dev) (Star Wars API).
 
-## ✅ Requirements
+# Fim Names
 
-- `bash`
-- `curl`
-- `jq` → Install via `sudo apt install jq` or `brew install jq`
-
-## 🚀 Usage
-
-```bash
-bash starwars_starships.sh "A New Hope"
+A New Hope
+The Empire Strikes Back
+Return of the Jedi
+The Phantom Menace
+Attack of the Clones
+Revenge of the Sith
 
