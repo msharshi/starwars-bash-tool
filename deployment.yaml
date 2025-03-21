@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: starwars-bash-tool
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: starwars
+  template:
+    metadata:
+      labels:
+        app: starwars
+    spec:
+      containers:
+        - name: starwars
+          image: msharshi/starwars-bash-tool:latest
+          command: ["/bin/sh"]
+          args: ["-c", "tail -f /dev/null"]  # Keeps the pod running
+
